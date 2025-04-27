@@ -42,9 +42,11 @@ Al pulsar en **Nueva Consulta**, se borran los datos de la tabla y se reinician 
 ## <div id="id5">4. Despliegue local&nbsp;🏠</div>
 
  - Se necesita tener instalado vite, node y npm, de forma global.
- - Clona este repositorio.
- - Accede a la carpeta creada.
+ - Clona este repositorio. 
+ - Accede a la carpeta creada. - 
  - Ejecuta npm install.
+ - Accede a la carpeta src/components/API
+ - Crea un fichero **key.ts**, copia esto ````export const APIKEY:string = ```` y pégalo en él junto con tu *API KEY* de Goolzoom, debes estar registrado en Goolzoom y haber creado una *API KEY* para poder usar la *API*, si no lo estás, regístrate, crea una *API KEY* dentro de Credentials y úsala dentro de **key.ts**. Tu *API KEY* debe ir encerrada entre comillas dobles o simples.
  - Ejecuta npm run build.
  - La apolicación final la tenemos en la carpeta dev.
  - Copia la carpeta dev o todo su contenido a donde quieras.

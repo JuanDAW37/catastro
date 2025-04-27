@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { APIKEY } from "../API/api";
+import { APIKEY } from "../API/key";
 
 export const useFetch = (url:string) => {
   const [data, setData] = useState([]);
