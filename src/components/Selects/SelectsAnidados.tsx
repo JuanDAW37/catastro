@@ -39,8 +39,8 @@ export const SelectsAnidados = ({codMunicipio, codCalle, codNumero}) => {
 
     return (
         <main className="selects"> 
-            <img src={imagen} alt="catastro" className="imagen" />             
-        <h2>Consultas al Catastro</h2>               
+            <h2>Consultas al Catastro</h2> 
+            <img src={imagen} alt="catastro" className="imagen" />                                   
             <SelectList 
                 title="Provincia:"
                 url={URLPROVINCIAS}

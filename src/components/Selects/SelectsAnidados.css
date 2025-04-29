@@ -1,41 +1,44 @@
 h2{
     text-align: center;
+    color: whitesmoke;
 }
 
 .selects{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;    
     justify-content: center;
     margin-top: 0.2rem;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 0.2rem;
-    background-color: darkgray;
+    background-color: #045ECD;
     padding-left: 15px;
     min-height: 40%;
     border: 0.1rem solid black;
+    color:#DAD2E9;
     border-radius: 10px;
-    align-items: center;
+    box-shadow: 7px 15px 5px #485299;
 }
 
 .consulta{   
     margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
     width: 25%;
-    background-color: rgb(25, 120, 197); 
+    background-color: #28B1A6; 
     height: 2rem;    
     border: 0.1rem solid black;
     border-radius: 10px;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    color: whitesmoke;
+    color: #eddbd3;
     text-align: center;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.2rem;    
 }
 
 .consulta:hover{
-    background-color: rgb(124, 160, 190); 
-    color: black;
+    background-color: #91f5ce; 
+    color: #4f2220;
     font-weight: bold;
+    box-shadow: 7px 5px 5px #32333a;
 }
 
 .imagen{
@@ -43,4 +46,5 @@ h2{
     height: 150px;
     border-radius: 10px;
     margin-top: 0.5rem;
+    margin:0 auto;
 }

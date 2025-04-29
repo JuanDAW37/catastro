@@ -1,7 +1,18 @@
+.select-container{
+    display:grid;
+    grid-template-columns: 0.5fr 2fr;
+    gap: 5px;
+    align-items: center;
+}
 .select{
-    margin-right: 1.5rem;
-    width: 85%;
-    height: 2.5rem;
-    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;    
+    width: 75%;
+    height: 1.5rem;
+    border-radius: 0.2rem;
     border: 1px solid #ccc;
+}
+
+option{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

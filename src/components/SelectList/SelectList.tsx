@@ -13,8 +13,8 @@ export const SelectList = ({ title, url, handleChange }: SelectListProps) => {
     if(error) return <p>Error: {(error as Error).message}</p>;
     const id = `select-${title}`;    
     return(
-        <div>
-            <label htmlFor={id}>{title}</label><br />
+        <div className="select-container">
+            <label htmlFor={id}>{title}</label>
             {loading && <p>Cargando...</p>}
             <select className="select" name={id} id={id} onChange={handleChange}>
                 <option value="">Elige un/a {title}</option>                               
